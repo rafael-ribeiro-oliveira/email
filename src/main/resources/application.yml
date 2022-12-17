@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: postgres
+    password: cHJvbWV0aGV1cw==
+    url: jdbc:postgresql://localhost:5432/java_spring_boilerplate
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rafaeloliver789@gmail.com
+    password: nbhpvywkqabgtrvd
+    protocol: smtp
+    tls: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+
